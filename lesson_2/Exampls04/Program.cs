@@ -1,4 +1,5 @@
-﻿void FillArray(int[] collection)
+﻿//Заполнить массив случайными числами
+void FillArray(int[] collection)
 {
     int length = collection.Length;
     int index = 0;
