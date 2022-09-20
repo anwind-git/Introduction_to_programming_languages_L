@@ -1,4 +1,5 @@
-﻿int[] array = { 1, 12, 31, 4, 18, 15, 16, 17, 18 };
+﻿//массив array, в котором n элементов. Найдём элемент, совпадающий с некоторым значением, который определяет пользователей.
+int[] array = { 1, 12, 31, 4, 18, 15, 16, 17, 18 };
 
 int n = array.Length;
 int find = 18;
@@ -12,6 +13,6 @@ while (index < n)
         Console.WriteLine(index);
         break;
     }
-    //index = index + 1;
+    
     index++;
 }
